@@ -352,13 +352,13 @@
   }
 
   
-  /* Dark Mode Base */
+  
 .dark-mode {
     background-color: #121212;
     color: #f0f0f0;
   }
   
-  /* Header and Footer */
+ 
   .dark-mode header,
   .dark-mode footer {
     background-color: #1e1e1e;
@@ -366,13 +366,13 @@
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
   }
   
-  /* Navigation Links */
+
   .dark-mode .nav-links a {
     color: #f0f0f0;
   }
   
   .dark-mode .nav-links a:hover {
-    color: #90caf9; /* soft blue */
+    color: #90caf9; 
   }
 
   .dark-mode .project h2{
@@ -380,19 +380,19 @@
     background-color: #121212
   }
   
-  /* Hero Section */
+
   .dark-mode .hero {
     background-color: #1e1e1e;
     color: #f0f0f0;
   }
   
-  /* About Section */
+
   .dark-mode .about {
     background-color: #1e1e1e;
     color: #f0f0f0;
   }
   
-  /* Projects Section */
+ 
   .dark-mode .projects {
     background-color: #1e1e1e;
     color: #f0f0f0;
@@ -403,7 +403,7 @@
     color: #f0f0f0;
   }
   
-  /* Contact Section */
+
   .dark-mode .contact {
     background-color: #1e1e1e;
     color: #f0f0f0;
@@ -416,7 +416,7 @@
     border: 1px solid #444;
   }
   
-  /* CTA Buttons */
+ 
   .dark-mode .cta-btn,
   .dark-mode button {
     background-color: #333;
@@ -428,18 +428,18 @@
     background-color: #555;
   }
   
-  /* Modal */
+
   .dark-mode .modal-content {
     background: #1e1e1e;
     color: #f0f0f0;
   }
   
-  /* Hamburger Menu */
+
   .dark-mode .nav-links {
     background-color: #1e1e1e;
   }
   
-  /* Toggle Button */
+
   #darkModeToggle {
     background: none;
     border: none;

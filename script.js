@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // 1. Smooth Scroll
+    
     $('.nav-links a').on('click', function (e) {
       if (this.hash !== '') {
         e.preventDefault();
@@ -13,12 +13,12 @@ $(document).ready(function () {
       }
     });
   
-    // 2. Mobile Menu Toggle
+   
     $('.hamburger').click(function () {
       $('.nav-links').toggleClass('show');
     });
   
-    // 3. Modal Popup on Project Click
+ 
     $('.project').click(function () {
       const title = $(this).find('h3').text();
       const desc = $(this).find('p').text();
@@ -34,7 +34,7 @@ $(document).ready(function () {
       $('.modal').fadeOut();
     });
   
-    // 4. Form Validation
+  
     $('form').submit(function (e) {
       e.preventDefault();
       const name = $('#name').val().trim();
@@ -52,7 +52,7 @@ $(document).ready(function () {
       this.reset();
     });
 
-      // 6. Section Reveal on Scroll
+      
   function revealOnScroll() {
     $('.reveal').each(function () {
       const elementTop = $(this).offset().top;
@@ -64,11 +64,10 @@ $(document).ready(function () {
     });
   }
 
-  revealOnScroll(); // on load
-  $(window).on('scroll', revealOnScroll); // on scroll
+  revealOnScroll(); 
+  $(window).on('scroll', revealOnScroll); 
 
 
-    // 5. Dark Mode Toggle
     $('#darkModeToggle').click(function () {
         $('body').toggleClass('dark-mode');
     
