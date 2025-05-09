@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ritik's Portfolio</title>
+
+    <!-- Google Font: Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Ritik</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+        <div>
+          <button id="darkModeToggle" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero reveal">
+      <h1>Hi, I'm Ritik Saxena</h1>
+      <p>Frontend Web Developer</p>
+      <a href="#projects" class="cta-btn">View Projects</a>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="about-content">
+        <img src="./images/Ritik.JPG" alt="Ritik's photo" />
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Ritik Kumar Saxena, a passionate Full Stack Web Developer with a strong interest in building clean, responsive, and user-friendly web applications. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have experience working with modern tools like Tailwind CSS and Framer Motion.
+
+            I have 6 months of professional experience as an Application Engineer at Authentic Engineers, where I worked on real-time projects and strengthened my frontend and backend development skills.
+
+            I've built projects ranging from an animated React portfolio and a real-time Weather App to a full-featured E-Commerce website. I'm always eager to learn, solve problems, and create impactful digital experiences that combine functionality with modern design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project" data-project="1">
+          <img src="./images/Project1.png" height="200px" width="350px" />
+          <h3>Animated Portfolio</h3>
+          <p>
+            A personal portfolio built using React, Tailwind CSS, and Framer Motion. It features smooth animations, responsive design, and showcases my skills, projects, and contact details in an interactive and modern layout.
+          </p>
+        </div>
+        <div class="project" data-project="2">
+          <img src="./images/Project2.png" height="200px" width="350px" />
+          <h3>Weather App</h3>
+          <p>
+            A simple and responsive web app built with HTML, CSS, and JavaScript that fetches real-time weather data using a public API based on user input or location, displaying temperature, conditions, and city name.
+          </p>
+        </div>
+        <div class="project" data-project="3">
+          <img src="./images/Project3.png" height="200px" width="350px" />
+          <h3>E-commerce Website</h3>
+          <p>
+            A fully functional and responsive e-commerce platform developed using React.js, with dynamic product listings, a shopping cart system, and an intuitive user interface optimized for performance and usability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="" alt="" style="width: 100%; border-radius: 10px; margin-bottom: 1rem;" />
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
